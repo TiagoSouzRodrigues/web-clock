@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color1: #363636;
+  --color2: #ffff;
+  --color3: rgb(41, 215, 231);
+  --color4: rgb(6, 37, 56);
+}
+
+body{
+  position: relative;
+  background-color: var(--color1);
+  color: var(--color3);
+
+  min-height: 100vh;
+  max-width: 520px;
+  margin: auto;
+  overflow-y: hidden;
+  
+}
+h1{
+  text-align: center;
+  font-family: 'Orbitron';
+  padding: 20px;
+}
+
+.clock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+  padding: 10px;
+  border: 10px solid var(--color2);
+  border-radius: 50px;
+
+  background-color: var(--color4);
+
+}
+
+.txt{
+  display: flex;
+  align-items: center;
+  gap:40px;
+  font-family: 'REM', Arial, Helvetica, sans-serif;
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.time{
+  display: flex;
+  font-family: 'Orbitron' , Arial, Helvetica, sans-serif;
+  font-size: 4.2rem;
+  padding: 10px;
+}
+
+
+footer p{
+  font-family: 'REM', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  position: relative;
+  bottom: -220px;
+  left: 20px;
+}
